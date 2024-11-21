@@ -20,29 +20,25 @@ function navbar_main(){
     </div>
 
 </div>
-    
+    <img src="assets/logo.png" alt="" style="width: 200px; height: auto; border: none;">
 <div id="search">
 <div id="first">
    
-    <div id="b">
-      <h6>
-    <a href="home.html">
-        <img src="IMG_2152.PNG" alt="" style="width: 100px; height: auto;">
-    </a>
-</h6>
 
-    </div>
 
 </div>
 </div>
 
-<div id="toggle">
-<div>New!</div>
-<div> <a href="bed.html" style="text-decoration: none; color:black" >Bedding</a>
+<div id="toggle" style="display: flex; gap: 20px;">
+  <div>
+    <a href="home.html" style="text-decoration: none; color: black;">Home</a>
+  </div>
+  <div>
+    <a href="bed.html" style="text-decoration: none; color: black;">Bedding</a>
+  </div>
 </div>
-<div>Home & Furniture</div>
 
-</div>
+
 <hr>
 
  `
@@ -50,5 +46,5 @@ function navbar_main(){
 
  export  default navbar_main
 
-
+//  <img src="assets/IMG_2152.PNG" alt="" style="width: 100px; height: auto; border: none;">
 
