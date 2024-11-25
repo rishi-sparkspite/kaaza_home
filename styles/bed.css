@@ -1,90 +1,78 @@
-#sh-container{
-    /* height: 6000px; */
+#sh-container {
     width: 100%;
-    /* border: 1px solid black; */
     display: flex;
     margin: auto;
     justify-content: space-between;
+    gap: 2%; /* Add spacing between sidebar and main content */
 }
-#sh-sidebar{
+
+#sh-sidebar {
     height: 3000px;
     width: 15%;
-    /* border: 1px solid red; */
+    padding: 10px; /* Added padding for better spacing */
 }
-#sh-hr1{
-    margin-top: -9px;
-}
-#sh-p2{
-    color: teal;
-    cursor: pointer;
-    font-size: 14px;
-}
-.sh-p3{
-    /* border: 1px solid red; */
-    width: 60%;
-    font-size: 14px;
-}
-.sh-p3:hover{
-   cursor: pointer;
-   text-decoration: underline; 
-}
-#sh-p4{
-    margin-top: 40px;
-}
-#sh-main{
-    /* height: 90%; */
+
+#sh-main {
     width: 82%;
-    /* border: 1px solid red; */
+    padding: 20px; /* Added padding for the main content */
 }
-#sh-right-head{
-    /* border: 1px solid black; */
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-#sh-right-head>div{
-    /* border: 1px solid blue; */
-    display: flex;
-    gap: 2%;
-    width: 35%;
-}
-#sh-head2{
-    font-size: 22px;
-    font-weight: 400;
-    margin-left: 1%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#sh-right-head>div>p{
-    font-size: 13px;
-    color: grey;
-    margin: 25px 0px 0px 3px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.sh-sortby{
-    text-align: right;
-}
-#sh-sort{
-    height: 30px;
-    margin-top: 17px;
-    align-items: right;
-    /* border-radius: 5px; */
-}
+
 #sh-product {
-    /* border: 1px solid blue; */
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-column-gap: 2%;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 20px; 
+    padding: 10px; 
+    box-sizing: border-box;
 }
+
+#sh-mainDiv {
+    cursor: pointer;
+    padding: 10px; /* Added padding inside product cards */
+    border: 1px solid #ddd; /* Added border for better visibility */
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Hover effect */
+}
+
+#sh-mainDiv:hover {
+    transform: scale(1.05);
+}
+
 .sh-image1 {
     width: 100%;
-    /* border: 1px solid red; */
+    height: auto;
+    border-radius: 5px; /* Smooth edges for images */
 }
-#sh-mainDiv {
-    /* border: 1px solid green; */
-    margin-bottom: 5%;
+
+#sh-sort {
+    margin-top: 20px;
+    width: 200px; /* Fixed width for the dropdown */
+}
+
+.browse-section {
+    margin-bottom: 20px; /* Add spacing below the Browse by section */
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Separator line */
+}
+
+.browse-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.browse-links {
+    display: flex;
+    gap: 15px; /* Add spacing between links */
+    flex-wrap: wrap; /* Allow links to wrap to the next line */
+}
+
+.browse-links a {
+    color: teal;
+    text-decoration: none;
+    font-size: 14px;
     cursor: pointer;
 }
-#filter{
-    width: 100%;
-    height: 40px;
+
+.browse-links a:hover {
+    text-decoration: underline;
 }

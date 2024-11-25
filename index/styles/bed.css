@@ -1,0 +1,78 @@
+#sh-container {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    gap: 2%; /* Add spacing between sidebar and main content */
+}
+
+#sh-sidebar {
+    height: 3000px;
+    width: 15%;
+    padding: 10px; /* Added padding for better spacing */
+}
+
+#sh-main {
+    width: 82%;
+    padding: 20px; /* Added padding for the main content */
+}
+
+#sh-product {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 20px; 
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+#sh-mainDiv {
+    cursor: pointer;
+    padding: 10px; /* Added padding inside product cards */
+    border: 1px solid #ddd; /* Added border for better visibility */
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Hover effect */
+}
+
+#sh-mainDiv:hover {
+    transform: scale(1.05);
+}
+
+.sh-image1 {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Smooth edges for images */
+}
+
+#sh-sort {
+    margin-top: 20px;
+    width: 200px; /* Fixed width for the dropdown */
+}
+
+.browse-section {
+    margin-bottom: 20px; /* Add spacing below the Browse by section */
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Separator line */
+}
+
+.browse-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.browse-links {
+    display: flex;
+    gap: 15px; /* Add spacing between links */
+    flex-wrap: wrap; /* Allow links to wrap to the next line */
+}
+
+.browse-links a {
+    color: teal;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.browse-links a:hover {
+    text-decoration: underline;
+}

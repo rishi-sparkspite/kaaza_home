@@ -23,295 +23,80 @@ var ProductList = [{
     price2: 94.40,
     hover_image: "https://images.urbndata.com/is/image/Anthropologie/45457426AA_035_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     id: 2,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/45407866AD_080_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Printfresh Organic Sheet Set",
-    price: 68.00,
-    price2: 278.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45407866AD_080_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 3,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/67097824_014_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Textured Marisol Quilt",
-    price: 248.00,
-    price2: 298.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/67097824_014_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 4,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/45457888AA_006_b11?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Tasseled Teague Cotton-Linen Pillow",
-    price: 78.00,
-    price2: 98.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45457888AA_006_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 5,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/66937202_095_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Birdie Quilt",
-    price: 178.00,
-    price2: 228.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/66937202_095_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 6,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/65858854_066_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Floral Printed Throw Blanket",
-    price: 128.00,
-    price2: 150.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/65858854_066_b3?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 7,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/45407802AA_067_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Ruffled Organic Spa Sateen Duvet Cover",
-    price: 248.00,
-    price2: 298.00,
+},{
+    image: "https://images.urbndata.com/is/image/Anthropologie/45407869AA_066_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+    name: "Printfresh Organic Quilt",
+    price: 278.00,
+    price2: 338.00,
     hover_image: "https://images.urbndata.com/is/image/Anthropologie/45407869AA_066_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 8,
+    id: 1,
 },
 {
-    image: "https://images.urbndata.com/is/image/Anthropologie/45407840AA_095_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Matteo Organic Percale Duvet Cover",
-    price: 158.00,
-    price2: 188.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45407840AA_095_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 9,
+    image: "https://images.urbndata.com/is/image/Anthropologie/45457426AA_035_b11?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+    name: "Luxe Linen Blend Pillow",
+    price: 54.40,
+    price2: 94.40,
+    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45457426AA_035_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+    id: 2,
+},{
+    image: "https://images.urbndata.com/is/image/Anthropologie/45407869AA_066_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+    name: "Printfresh Organic Quilt",
+    price: 278.00,
+    price2: 338.00,
+    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45407869AA_066_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+    id: 1,
 },
 {
-    image: "https://images.urbndata.com/is/image/Anthropologie/66932609_014_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Woven Blocked Stripe Throw Blanket",
-    price: 98.00,
-    price2: 200.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/66932609_014_b3?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 10,
+    image: "https://images.urbndata.com/is/image/Anthropologie/45457426AA_035_b11?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+    name: "Luxe Linen Blend Pillow",
+    price: 54.40,
+    price2: 94.40,
+    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45457426AA_035_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
+    id: 2,
 },
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/66923749_011_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Textured Marta Pillow",
-    price: 68.00, 
-    price2: 78.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/66923749_011_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 11,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/65858854_031_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Floral Printed Throw Blanket",
-    price: 128.00,
-    price2: 200.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/65858854_031_b3?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 12,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/45407795AA_067_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Embroidered Eleni Duvet Cover",
-    price: 248.00, 
-    price2: 298.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45407795AA_067_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 13,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/45407180AD_071_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Organic Percale Printed Sheet Set",
-    price: 48.00,
-    price2: 198.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45407180AD_071_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 14,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/45407838AA_095_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Marguerite Organic Sateen Duvet Cover",
-    price: 178.00, 
-    price2: 228.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45407838AA_095_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 15,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/65081325_066_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Upcycled Vendima Throw Blanket",
-    price: 98.00,
-    price2: 121.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/51561926_007_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 16,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/45457831AA_066_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Suillivan Easy Care Pillow",
-    price: 78.00,
-    price2: 200.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45457831AA_066_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 17,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/45407355AA_011_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Lustered Velvet Alastair Quilt",
-    price: 228.00, 
-    price2: 278.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45407355AA_011_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 18,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/51561926_007_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Sophie Faux Fur Throw Blanket",
-    price: 98.00,
-    price2: 300.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/51561926_007_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 19,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/45407437AD_066_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Organic Sateen Printed Sheet Set",
-    price: 58.00, 
-    price2: 228.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45407833AA_059_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 20,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/45407833AA_059_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Organic Sateen Printed Sheet Set",
-    price: 168.00, 
-    price2: 218.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45407838AA_095_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 21,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/45407841AA_011_b8?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Organic Sateen Printed Sheet Set",
-    price: 378.00, 
-    price2: 428.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45407841AA_011_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 22,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/45457836AA_040_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Organic Sateen Printed Sheet Set",
-    price: 118.00, 
-    price2: 158.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45457836AA_040_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 23,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/45407835AD_040_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Organic Sateen Printed Sheet Set",
-    price: 58.00, 
-    price2: 218.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45407835AD_040_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 24,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/65432916_012_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Organic Sateen Printed Sheet Set",
-    price: 298.00, 
-    price2: 350.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/65432916_012_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 25,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/45407797AA_099_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Organic Sateen Printed Sheet Set",
-    price: 328.00, 
-    price2: 378.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45407797AA_099_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 26,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/45457800AA_066_b11?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Organic Sateen Printed Sheet Set",
-    price: 44.95, 
-    price2: 54.95,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45457800AA_066_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 27,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/45407699AA_061_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Organic Sateen Printed Sheet Set",
-    price: 224.95, 
-    price2: 270.00 ,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45407699AA_061_b4?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 28,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/64540768_050_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Organic Sateen Printed Sheet Set",
-    price: 88.00, 
-    price2: 138.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/64540768_050_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 29,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/45407796AA_011_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Organic Sateen Printed Sheet Set",
-    price: 278.00, 
-    price2: 318.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45407796AA_011_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 30,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/45407830AA_095_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Organic Sateen Printed Sheet Set",
-    price: 178.00, 
-    price2: 218.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45407830AA_095_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 31,
-},
-{
-    image: "https://images.urbndata.com/is/image/Anthropologie/45407812AA_010_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    name: "Organic Sateen Printed Sheet Set",
-    price: 228.00, 
-    price2: 308.00,
-    hover_image: "https://images.urbndata.com/is/image/Anthropologie/45407812AA_010_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
-    id: 32,
-},
+
 ];
 
 window.addEventListener("load", function () {
     display(ProductList)
 })
+// Adjust product display for spacing and padding
 function display(list) {
-    // console.log("inside function");
-
     document.getElementById("sh-product").innerHTML = "";
-    // var parea = document.getElementsByClassName("sh-parea");
 
-    for (let i = 0; i < ProductList.length; i++) {
-        // console.log(ProductList[i]);
-
+    for (let i = 0; i < list.length; i++) {
         var div = document.createElement("div");
         div.setAttribute("id", "sh-mainDiv");
-        div.addEventListener("click",function(){
-            addLocal(ProductList[i])
-        })
-        function addLocal(data){
-            localStorage.setItem("data",JSON.stringify(data));
-            window.location.href="bed-product-detail.html"
-        }
+        div.addEventListener("click", function () {
+            addLocal(list[i]);
+        });
+
         var img = document.createElement("img");
         img.setAttribute("class", "sh-image1");
-        img.setAttribute("id", `sh-image ${ProductList[i].id}`)
-        img.src = ProductList[i].image;
+        img.setAttribute("id", `sh-image${list[i].id}`);
+        img.src = list[i].image;
+
         img.addEventListener("mouseenter", function () {
-            mouseEnterfunction(ProductList[i]);
-        })
+            mouseEnterfunction(list[i]);
+        });
 
         img.addEventListener("mouseout", function () {
-            mouseOutfunction(ProductList[i]);
-        })
+            mouseOutfunction(list[i]);
+        });
 
         var name = document.createElement("p");
-        name.setAttribute("id", "sh-name")
-        name.textContent = ProductList[i].name;
+        name.setAttribute("id", "sh-name");
+        name.textContent = list[i].name;
 
         var price = document.createElement("p");
         price.setAttribute("id", "sh-price");
-        price.textContent = `$${ProductList[i].price} - $${ProductList[i].price2}`;
+        price.textContent = `$${list[i].price} - $${list[i].price2}`;
 
         div.append(img, name, price);
-
         document.querySelector("#sh-product").append(div);
     }
 }
+
 function mouseEnterfunction(product) {
     // console.log("onhover")
 
