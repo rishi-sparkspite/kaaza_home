@@ -250,17 +250,17 @@
 #shcontainer13 {
     display: flex;
     width: 50%;
-    margin-left: 32%;
+    margin-left: 25%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
 #left-click-img {
-    margin-left: -300px;
+    margin-left: -200px;
 }
 
 #right-click-img {
-    margin-right: -300px;
+    margin-right: -200px;
 }
 
 #shbox2 {
