@@ -53,6 +53,9 @@
 
 .logoImg {
     margin-left: 20px;
+    width: 200px;
+    height: auto;
+    border: none;
 }
 
 /* #search-box {
@@ -400,5 +403,19 @@ li:hover {
 
     #para {
         padding-top: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    #language {
+        padding-right: 0px;
+        padding: 0px;
+    }
+
+    .logoImg {
+        margin-left: 5px;
+        width: 150px;
+        height: auto;
+        border: none;
     }
 }

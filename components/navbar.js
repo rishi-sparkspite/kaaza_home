@@ -1,5 +1,5 @@
 function navbar_main() {
-    return `
+  return `
 
     <div id="navbar">
 
@@ -11,7 +11,7 @@ function navbar_main() {
 <div class="navbar-logo-heading">
 
 <div>
-    <img class="logoImg" src="assets/logo.png" alt="" style="width: 200px; height: auto; border: none;">
+    <img class="logoImg" src="assets/logo.png" alt="" >
 </div>
 
 <div id="language">
