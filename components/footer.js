@@ -1,6 +1,6 @@
 
-function footer_main(){
-    return `
+function footer_main() {
+  return `
     <style>
         /* Add your CSS here */
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
@@ -16,7 +16,7 @@ function footer_main(){
           position: relative;
           width: 100%;
           background: #A1A483;
-          min-height: 100px;
+          min-height: 0px;
           padding: 20px 50px;
           display: flex;
           justify-content: center;
@@ -39,7 +39,7 @@ function footer_main(){
         }
 
         .social-icon__link {
-          font-size: 2rem;
+          font-size: 1.5rem;
           color: #fff;
           margin: 0 10px;
           display: inline-block;
@@ -51,7 +51,7 @@ function footer_main(){
         }
 
         .menu__link {
-          font-size: 1.2rem;
+          font-size: 1.5rem;
           color: #fff;
           margin: 0 10px;
           display: inline-block;
@@ -131,7 +131,7 @@ function footer_main(){
 
      <div id="footer">
             <div id="signup_para">
-                <h3>Sign Up for Email</h3>
+                <h3>Sign up for Email</h3>
                 <p>Receive early access to new arrivals, sales, exclusive content, events and much more!</p>
             </div>
             <div id="sign_input">
@@ -144,7 +144,7 @@ function footer_main(){
             <p>By signing up, you will receive KaazaHome offers, promotions and other commercial messages. You are also
                 agreeing to KaazaHome’s <a href="#">Privacy Policy</a>. You may unsubscribe at any time.</p>
         </div>
-        <hr>
+
         
         <footer class="footer">
             <div class="waves">

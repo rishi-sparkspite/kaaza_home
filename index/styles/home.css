@@ -394,6 +394,7 @@
 
 /* Responsive adjustments */
 @media (max-width: 1200px) {
+
     #shcontainer3,
     #shcontainer6,
     #shcontainer13,
@@ -431,6 +432,7 @@
 }
 
 @media (max-width: 768px) {
+
     #shcontainer3,
     #shcontainer6,
     #shcontainer13,

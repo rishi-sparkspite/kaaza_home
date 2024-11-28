@@ -2,35 +2,47 @@
     width: 100%;
     display: flex;
     margin: auto;
-    justify-content: space-between;
-    gap: 2%; /* Add spacing between sidebar and main content */
+    /* Add spacing between sidebar and main content */
 }
 
 #sh-sidebar {
-    height: 3000px;
+    height: 450px;
     width: 15%;
-    padding: 10px; /* Added padding for better spacing */
+    padding: 20px;
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    gap: 7px;
+    font-size: 15px;
 }
 
 #sh-main {
     width: 82%;
-    padding: 20px; /* Added padding for the main content */
+    padding: 20px;
+    /* Added padding for the main content */
+}
+
+#sh-head2 {
+    margin-left: 15px;
 }
 
 #sh-product {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-gap: 20px; 
-    padding: 10px; 
+    grid-gap: 20px;
+    padding: 10px;
     box-sizing: border-box;
 }
 
 #sh-mainDiv {
     cursor: pointer;
-    padding: 10px; /* Added padding inside product cards */
-    border: 1px solid #ddd; /* Added border for better visibility */
+    padding: 10px;
+    /* Added padding inside product cards */
+    border: 1px solid #ddd;
+    /* Added border for better visibility */
     border-radius: 8px;
-    transition: transform 0.3s ease; /* Hover effect */
+    transition: transform 0.3s ease;
+    /* Hover effect */
 }
 
 #sh-mainDiv:hover {
@@ -40,18 +52,22 @@
 .sh-image1 {
     width: 100%;
     height: auto;
-    border-radius: 5px; /* Smooth edges for images */
+    border-radius: 5px;
+    /* Smooth edges for images */
 }
 
 #sh-sort {
     margin-top: 20px;
-    width: 200px; /* Fixed width for the dropdown */
+    width: 200px;
+    /* Fixed width for the dropdown */
 }
 
 .browse-section {
-    margin-bottom: 20px; /* Add spacing below the Browse by section */
+    margin-bottom: 20px;
+    /* Add spacing below the Browse by section */
     padding: 10px;
-    border-bottom: 1px solid #ddd; /* Separator line */
+    border-bottom: 1px solid #ddd;
+    /* Separator line */
 }
 
 .browse-title {
@@ -62,8 +78,10 @@
 
 .browse-links {
     display: flex;
-    gap: 15px; /* Add spacing between links */
-    flex-wrap: wrap; /* Allow links to wrap to the next line */
+    gap: 15px;
+    /* Add spacing between links */
+    flex-wrap: wrap;
+    /* Allow links to wrap to the next line */
 }
 
 .browse-links a {

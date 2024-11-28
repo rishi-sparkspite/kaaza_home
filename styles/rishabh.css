@@ -1,12 +1,13 @@
 #replacenavbar {
     display: flex;
     justify-content: center;
-    background-color: #d8dccb;
+    background-color: black;
+    color: white;
 }
 
 .replacenavbar {
-    padding: 5px 15px;
-    font-size: 13px;
+    padding: 10px 15px;
+    font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -33,7 +34,6 @@
 }
 
 #language {
-    background-color: #f7f6f2;
     border-bottom: 1px solid #f7f6f2;
     display: flex;
     gap: 20px;
@@ -43,7 +43,19 @@
     padding-right: 50px;
 }
 
-#search-box {
+.navbar-logo-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #f7f6f2;
+}
+
+.logoImg {
+    margin-left: 20px;
+}
+
+/* #search-box {
     padding: 10px;
     color: #1d565d;
     border: none;
@@ -88,24 +100,22 @@
     height: 100%;
     gap: 50px;
     padding: 5px 10px;
-}
+} */
 
 #toggle {
     display: flex;
     gap: 30px;
-    margin: 15px 15px;
+    margin-top: 15px;
     color: #26262c;
+    margin-left: 20px;
     font-family: 'Times New Roman', Times, serif;
     height: 100%;
+    font-size: 17px;
     letter-spacing: .06rem;
 }
 
-#toggle div:hover {
-    color: #046673;
-    cursor: pointer;
-}
-
-#a, #b {
+#a,
+#b {
     height: 100%;
     display: flex;
     margin-top: 23px;
@@ -126,6 +136,7 @@
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    width: 100%;
 }
 
 #signup_para {
@@ -154,10 +165,11 @@
     color: var(--text-medium);
     font: Avenir Book, sans-serif;
     letter-spacing: .06rem;
-    padding-bottom: 10px;
     font-size: 14px;
     padding: 0px 30px;
-    margin-top: -20px;
+    margin-top: -15px;
+    padding-bottom: 20px;
+    width: 100;
     background-color: #f7f6f2;
 }
 
@@ -166,13 +178,11 @@
     color: white;
 }
 
-#sign_input button, #sign_input input {
+#sign_input button,
+#sign_input input {
     padding: 10px 40px;
 }
 
-hr {
-    background-color: #f7f6f2;
-}
 
 h3 {
     color: #26262c;
@@ -261,12 +271,10 @@ li:hover {
     background-color: #f7f6f2;
 }
 
-/* Responsive Design */
-@media (max-width: 1200px) {
-    #main {
-        grid-template-columns: repeat(4, 25%);
-    }
-}
+
+
+
+/* ------------------------------------ */
 
 @media (max-width: 992px) {
     #main {
@@ -280,11 +288,12 @@ li:hover {
     }
 
     #footer {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
-    #signup_para, #sign_input {
+    #signup_para,
+    #sign_input {
         width: 80%;
         margin: 10px auto;
     }
@@ -292,22 +301,17 @@ li:hover {
 
 @media (max-width: 768px) {
     #replacenavbar {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
     #language {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #search {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
     #footer {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
@@ -315,11 +319,21 @@ li:hover {
         grid-template-columns: repeat(2, 50%);
     }
 
-    #last, #last1, #toggle {
-        flex-direction: column;
+
+    #last,
+    #last1,
+    #toggle {
+        flex-direction: row;
     }
 
-    #signup_para, #sign_input {
+    #sign_input button {
+        margin-top: 5px;
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+    #signup_para,
+    #sign_input {
         width: 90%;
     }
 }
@@ -337,6 +351,31 @@ li:hover {
         grid-template-columns: 100%;
     }
 
+    #footer {
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+    #signup_para p {
+        font-size: 10px;
+        padding-bottom: 0px;
+    }
+
+    #sign_input {
+        margin-top: -20px;
+    }
+
+    #sign_input button {
+        padding: 3px 5px 3px 5px;
+        margin-top: 15px;
+        margin-left: 8px;
+    }
+
+    #para {
+        font-size: 9px;
+        text-align: justify;
+    }
+
     #footer2 {
         height: auto;
         padding: 20px;
@@ -345,5 +384,21 @@ li:hover {
     li {
         font-size: 12px;
         padding: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    #language {
+        padding-right: 20px;
+    }
+
+    #sign_input button {
+        padding: 3px 5px 3px 5px;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+
+    #para {
+        padding-top: 20px;
     }
 }

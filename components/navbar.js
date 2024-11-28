@@ -1,15 +1,20 @@
-function navbar_main(){
+function navbar_main() {
     return `
-    
+
     <div id="navbar">
 
     <div id="replacenavbar">
-    <p class="replacenavbar">Welcome to Kaaza Home!</p> <p class="replacenavbar" style=" color: rgb(63, 61, 61);;">Make homes beautiful</p> 
+    <p class="replacenavbar">Welcome to Kaaza Home!</p> <p class="replacenavbar" style=" color: rgb(255 207 207);">Make homes beautiful</p>
     
 </div>
 
-    <div id="language">
+<div class="navbar-logo-heading">
 
+<div>
+    <img class="logoImg" src="assets/logo.png" alt="" style="width: 200px; height: auto; border: none;">
+</div>
+
+<div id="language">
         <div id="left"><button> English($)</button> </div>
         <div id="right"> <a href="#">
                 <button> <span><i class="fa fa-user" aria-hidden="true"></i></span></a>
@@ -18,15 +23,8 @@ function navbar_main(){
             </button>
         </div>
     </div>
-
 </div>
-    <img src="assets/logo.png" alt="" style="width: 200px; height: auto; border: none;">
-<div id="search">
-<div id="first">
-   
 
-
-</div>
 </div>
 
 <div id="toggle" style="display: flex; gap: 20px;">
@@ -44,7 +42,7 @@ function navbar_main(){
  `
 }
 
- export  default navbar_main
+export default navbar_main
 
 //  <img src="assets/IMG_2152.PNG" alt="" style="width: 100px; height: auto; border: none;">
 

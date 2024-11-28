@@ -12,7 +12,6 @@
   width: 100%;
   background: #3586ff;
   min-height: 100px;
-  padding: 20px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,12 +40,9 @@
   transition: 0.5s;
 }
 
-.social-icon__link:hover {
-  transform: translateY(-10px);
-}
 
 .menu__link {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   color: #fff;
   margin: 0 10px;
   display: inline-block;
@@ -59,6 +55,7 @@
 .menu__link:hover {
   opacity: 1;
 }
+
 
 .footer p {
   color: #fff;
@@ -114,11 +111,21 @@
 }
 
 @keyframes animateWaves {
-  0% { background-position-x: 1000px; }
-  100% { background-position-x: 0px; }
+  0% {
+    background-position-x: 1000px;
+  }
+
+  100% {
+    background-position-x: 0px;
+  }
 }
 
 @keyframes animate {
-  0% { background-position-x: -1000px; }
-  100% { background-position-x: 0px; }
+  0% {
+    background-position-x: -1000px;
+  }
+
+  100% {
+    background-position-x: 0px;
+  }
 }

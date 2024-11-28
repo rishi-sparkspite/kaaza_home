@@ -1,10 +1,10 @@
-function navbar_main(){
-    return `
+function navbar_main() {
+  return `
     
     <div id="navbar">
 
     <div id="replacenavbar">
-    <p class="replacenavbar">Welcome to Kaaza Home!</p> <p class="replacenavbar" style=" color: rgb(63, 61, 61);;">Make homes beautiful</p> 
+    <p class="replacenavbar">Welcome to Kaaza Home!</p> <p class="replacenavbar" style=" color: rgb(233 182 182);">Make homes beautiful</p>
     
 </div>
 
@@ -44,7 +44,7 @@ function navbar_main(){
  `
 }
 
- export  default navbar_main
+export default navbar_main
 
 //  <img src="assets/IMG_2152.PNG" alt="" style="width: 100px; height: auto; border: none;">
 
