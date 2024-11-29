@@ -28,7 +28,7 @@
 
 #sh-product {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(4, 1fr); /* 4 columns by default */
     grid-gap: 20px;
     padding: 10px;
     box-sizing: border-box;
@@ -94,3 +94,23 @@
 .browse-links a:hover {
     text-decoration: underline;
 }
+
+/* Media queries to make the grid responsive */
+@media (max-width: 1200px) {
+    #sh-product {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for medium screens */
+    }
+}
+
+@media (max-width: 800px) {
+    #sh-product {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+    }
+}
+
+@media (max-width: 500px) {
+    #sh-product {
+        grid-template-columns: 1fr; /* 1 column for very small screens */
+    }
+}
+

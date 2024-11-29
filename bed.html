@@ -12,48 +12,36 @@
         href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1QFXizHW4skIPtOpI9nmjdLZercU-9osBNoOgIk0&usqp=CAU"
         type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div id="navbar_main"></div>
+    <div class="page-container">
+        <div id="navbar_main"></div>
 
-    <div id="sh-container">
-
-        <!-- left container - filter box start -->
-        <div id="sh-sidebar">
-            <p id="sh-p1" style="font-weight: bold; color: #347584;">Browse By:</p>
-            <hr id="sh-hr1">
-
-            <p><a id="sh-p2" href="index.html" style="cursor: pointer; text-decoration: none; color: black;">Bedding</a>
-            </p>
-            <p><a class="sh-p3" href="index.html" style="cursor: pointer; text-decoration: none;color: black;">Quilts &
-                    Blankets</a>
-            </p>
-        </div>
-        <!-- filter box ends -->
-
-        <!-- right container - main page starts -->
-        <div id="sh-main">
-
-            <!-- right div head start -->
-            <div id="sh-right-head">
-                <div id="sh-right-head-box">
-                    <h2 id="sh-head2">Bedding</h2>
-                </div>
+        <div id="sh-container">
+            <!-- Sidebar -->
+            <div id="sh-sidebar">
+                <p id="sh-p1" style="font-weight: bold; color: #347584;">Browse By:</p>
+                <hr id="sh-hr1">
+                <div id="category-list"></div>
             </div>
-            <!-- right div head end -->
 
-            <!-- right product start -->
-            <div class="sh-parea" id="sh-product"></div>
-            <!-- right product start -->
+            <!-- Main Content -->
+            <div id="sh-main">
+                <div id="sh-right-head">
+                    <div id="sh-right-head-box">
+                        <h2 id="sh-head2">Bedding</h2>
+                    </div>
+                </div>
+                <div class="sh-parea" id="sh-product"></div>
+            </div>
         </div>
+
+        <div id="footer_main"></div>
     </div>
-
-    <div id="footer_main"></div>
-
 </body>
-<script type="module" src="./scripts/bed.js"></script>
+
 
 </html>
+<script type="module" src="./scripts/bed.js"></script>

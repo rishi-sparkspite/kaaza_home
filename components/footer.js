@@ -1,177 +1,120 @@
-
 function footer_main() {
   return `
     <style>
-        /* Add your CSS here */
-        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
-        * {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-          font-family: "Poppins", sans-serif;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
 
-        .footer {
-          position: relative;
-          width: 100%;
-          background: #A1A483;
-          min-height: 0px;
-          padding: 20px 50px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-        }
+      .footer {
+        position: relative;
+        width: 100%;
+        background: #A1A483;
+        padding: 20px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        color: #fff;
+      }
 
-        .social-icon,
-        .menu {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin: 10px 0;
-          flex-wrap: wrap;
-        }
+      .footer .contact {
+        flex: 1;
+        max-width: 50%;
+        font-size: 1rem;
+        line-height: 1.8;
+      }
 
-        .social-icon__item,
-        .menu__item {
-          list-style: none;
-        }
+      .footer .brand {
+        flex: 1;
+        max-width: 50%;
+        text-align: right;
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
 
-        .social-icon__link {
-          font-size: 1.5rem;
-          color: #fff;
-          margin: 0 10px;
-          display: inline-block;
-          transition: 0.5s;
-        }
+      .footer .brand span {
+        font-weight: 400;
+        font-size: 0.9rem;
+      }
 
-        .social-icon__link:hover {
-          transform: translateY(-10px);
-        }
+      .social-icon {
+        display: flex;
+        margin-top: 10px;
+        justify-content: flex-start;
+      }
 
-        .menu__link {
-          font-size: 1.5rem;
-          color: #fff;
-          margin: 0 10px;
-          display: inline-block;
-          transition: 0.5s;
-          text-decoration: none;
-          opacity: 0.75;
-          font-weight: 300;
-        }
+      .social-icon__item {
+        list-style: none;
+      }
 
-        .menu__link:hover {
-          opacity: 1;
-        }
+      .social-icon__link {
+        font-size: 1.5rem;
+        color: #fff;
+        margin-right: 15px;
+        display: inline-block;
+        transition: 0.5s;
+      }
 
-        .footer p {
-          color: #fff;
-          margin: 15px 0 10px 0;
-          font-size: 1rem;
-          font-weight: 300;
-        }
+      .social-icon__link:hover {
+        transform: translateY(-5px);
+      }
 
-        .waves {
-          position: absolute;
-          width: 100%;
-          height: 100px;
-          top: -100px;
-          left: 0;
-          overflow: hidden;
-          line-height: 0;
-        }
+      .waves {
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        top: -100px;
+        left: 0;
+        overflow: hidden;
+        line-height: 0;
+      }
 
-//         .wave {
-//           position: absolute;
-//           width: 100%;
-//           height: 100px;
-//           background: url("pngegg.png");
-//           background-size: 1000px 100px;
-//         }
+      @keyframes animateWaves {
+        0% { background-position-x: 1000px; }
+        100% { background-position-x: 0px; }
+      }
 
-//         .wave#wave1 {
-//           z-index: 1000;
-//           opacity: 1;
-//           bottom: 0;
-//           animation: animateWaves 4s linear infinite;
-//         }
-
-//         .wave#wave2 {
-//           z-index: 999;
-//           opacity: 0.5;
-//           bottom: 10px;
-//           animation: animate 4s linear infinite !important;
-//         }
-
-//         .wave#wave3 {
-//           z-index: 1000;
-//           opacity: 0.2;
-//           bottom: 15px;
-//           animation: animateWaves 3s linear infinite;
-//         }
-
-//        .wave#wave4 {
-//   z-index: 999;
-//   opacity: 0.7;
-//   bottom: 30px; /* Move each wave a little further down */
-//   animation: animate 3s linear infinite;
-// }
-
-        @keyframes animateWaves {
-          0% { background-position-x: 1000px; }
-          100% { background-position-x: 0px; }
-        }
-
-        @keyframes animate {
-          0% { background-position-x: -1000px; }
-          100% { background-position-x: 0px; }
-        }
+      @keyframes animate {
+        0% { background-position-x: -1000px; }
+        100% { background-position-x: 0px; }
+      }
     </style>
 
-     <div id="footer">
-            <div id="signup_para">
-                <h3>Sign up for Email</h3>
-                <p>Receive early access to new arrivals, sales, exclusive content, events and much more!</p>
-            </div>
-            <div id="sign_input">
-                <h3>Email Address <span style="font-size:8px;padding-bottom:10px"> <i class="fa fa-asterisk" ></i> </span></h3>
-                <input type="text">
-                <button>SUBMIT</button>
-            </div>
-        </div>
-        <div id="para">
-            <p>By signing up, you will receive KaazaHome offers, promotions and other commercial messages. You are also
-                agreeing to KaazaHome’s <a href="#">Privacy Policy</a>. You may unsubscribe at any time.</p>
-        </div>
+    <footer class="footer">
+      <div class="contact">
+        <h4>Contact Us</h4>
+        <p>Phone: +91 85698 99969</p>
+        <p>Email: Maalakshmitexofabs@gmail.com</p>
+        <p>Address: Panipat, Haryana, India</p>
+        <ul class="social-icon">
+          <li class="social-icon__item">
+            <a class="social-icon__link" href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+          </li>
+          <li class="social-icon__item">
+            <a class="social-icon__link" href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+          </li>
+          <li class="social-icon__item">
+            <a class="social-icon__link" href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+          </li>
+          <li class="social-icon__item">
+            <a class="social-icon__link" href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+          </li>
+        </ul>
+      </div>
+      <div class="brand">
+        <h2>Kaaza Home</h2>
+        <span>&copy;2024 | All Rights Reserved</span>
+      </div>
+    </footer>
 
-        
-        <footer class="footer">
-            <div class="waves">
-                <div class="wave" id="wave1"></div>
-                <div class="wave" id="wave2"></div>
-                <div class="wave" id="wave3"></div>
-                <div class="wave" id="wave4"></div>
-            </div>
-            <ul class="social-icon">
-                <li class="social-icon__item"><a class="social-icon__link" href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-                <li class="social-icon__item"><a class="social-icon__link" href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
-                <li class="social-icon__item"><a class="social-icon__link" href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-                <li class="social-icon__item"><a class="social-icon__link" href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-            </ul>
-            <ul class="menu">
-                <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
-            </ul>
-            <p>&copy;2024 Kaaza Home | All Rights Reserved</p>
-        </footer>
-        
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    `;
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  `;
 }
 
 export default footer_main;
